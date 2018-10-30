@@ -3,6 +3,7 @@ import os
 from appium import webdriver
 from appium.webdriver.connectiontype import ConnectionType
 from utils.config import REPORT_PATH
+from utils.log import logger
 
 TYPES = {'remote': webdriver.Remote}
 
@@ -22,23 +23,26 @@ class WebView(object):
         self.driver = None
 
     def get(self, appium_url, desired_caps, implicitly_wait=30, noReset=None):
-        # print("Get", desired_caps)
+        logger.info("Get desired_caps:{}".format(desired_caps))
         if noReset == None or noReset == True:
             desired_caps.update({'noReset':True})
         else:
             desired_caps.update({'noReset': False})
-        # print(self.desired_caps)
+        logger.info("Final desired_caps:{}".format(desired_caps))
         self.driver = webdriver.Remote(appium_url.get('url'), desired_caps)
         self.driver.implicitly_wait(implicitly_wait)
         return self
 
-    def save_screen_shot(self, page_name=None, file_name='screen_shot'):
+    def save_screen_shot(self, page_name=None, file_name='screen_shot', ti=False):
         day = time.strftime('%Y%m%d', time.localtime(time.time()))
         screenshot_path = REPORT_PATH + '\%s_%s' % (page_name, day)
         if not os.path.exists(screenshot_path):
             os.makedirs(screenshot_path)
-        tm = time.strftime('%H%M%S', time.localtime(time.time()))
-        screenshot = self.driver.save_screenshot(screenshot_path + '\\%s_%s.png' % (file_name, tm))
+        if ti:
+            tm = time.strftime('%H%M%S', time.localtime(time.time()))
+            screenshot = self.driver.save_screenshot(screenshot_path + '\\%s_%s.png' % (file_name, tm))
+        else:
+            screenshot = self.driver.save_screenshot(screenshot_path + '\\%s.png' % (file_name))
         return screenshot
 
     def getSize(self):
@@ -69,13 +73,11 @@ class WebView(object):
         try:
             self.driver.hide_keyboard()
         except:
-            print("Soft keyboard not present, cannot hide keyboard")
+            logger.info("Soft keyboard not present, cannot hide keyboard")
             pass
 
     def pressKeyCode(self, keycode=None):
-        print("2")
         self.driver.press_keycode(keycode)
-        print("4")
 
     def close(self):
         self.driver.close()

@@ -1,7 +1,9 @@
 import requests
 import json
 # from utils.config import get_headers
+from utils.log import logger
 
+pr = "https"
 
 class GetAllWordSpellAnswers(object):
     def __init__(self):
@@ -12,7 +14,8 @@ class GetAllWordSpellAnswers(object):
     def get_all_word_spell_answer(self, headers, groupID, taskID):
         # http: // appncee_dev.langb.cn / sysListening / 1104 / wordDic
         host = headers.get('Host')
-        url = "http://{}/sysWriting/{}/wordSpell".format(host, str(groupID))
+        url = "{}://{}/sysWriting/{}/wordSpell".format(pr, host, str(groupID))
+        logger.info("单词拼写===》URL:{}".format(url))
         querystring = {"groupID": "{}".format(groupID), "taskID": "{}".format(taskID)}
         response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text

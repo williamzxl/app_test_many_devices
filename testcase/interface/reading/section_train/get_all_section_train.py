@@ -1,25 +1,27 @@
 import requests
 import json
 from itertools import chain
-# from utils.config import get_headers
+from utils.config import get_http
+from utils.log import logger
 
 
 class GetAllSectionTrainAnswers(object):
     def __init__(self):
-        # self.headers = headers
+        self.pr = get_http()
         # self.url = self.headers.get('Host')
         self.pas = None
 
 
     def get_all_section_train_answers(self, headers, groupID, taskID):
         host = headers.get("Host")
-        url = "http://{}/sysReading/{}/sectionTrain".format(host, groupID)
+        url = "{}://{}/sysReading/{}/sectionTrain".format(self.pr, host, groupID)
         querystring = {"groupID": "{}".format(groupID), "taskID": "{}".format(taskID)}
-
+        logger.info("段落训练 tID {}, gID {}， url is {}".format(taskID,groupID,url))
         response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('questGuide')
+        logger.info("段落训练 tID {}, gID {}，result is: {}".format(taskID,groupID,result))
         all_answers = []
         for q in result:
             steps = (q.get('steps'))
@@ -32,6 +34,7 @@ class GetAllSectionTrainAnswers(object):
             # if len(all_questAnswer) != 0:
             #     all_answers.append([a.get('questAnswer') for a in all_questAnswer])
             #     all_answers_choice.append([a.get('questChoices') for a in all_questAnswer])
+        logger.info("段落训练 tID {}, gID {}， all answer is :{}".format(taskID,groupID, all_answers))
         return all_answers
 
     def sen_train_right_answer(self, answers):
@@ -50,6 +53,7 @@ class GetAllSectionTrainAnswers(object):
                         step3_answers.append(s3.get('questAnswer'))
                     else:
                         step3_answers.append(0)
+        logger.info("段落训练 right answer step2_answer[0]:{}, step3:{}".format(step2_answers[0], step3_answers))
         return step2_answers[0], step3_answers
         # choice_EN = answers[sen_num-1][ques_num - 1]
         # print("Choice_EN:", choice_EN)
@@ -83,6 +87,7 @@ class GetAllSectionTrainAnswers(object):
                         step3_wrong_answers.append("Wrong" + s3.get('questAnswer'))
                     else:
                         step3_wrong_answers.append(0)
+        logger.info("段落训练 step2_wrong_answers[0]：{}, step3_wrong_answers：{}".format(step2_wrong_answers[0], step3_wrong_answers))
         return step2_wrong_answers[0], step3_wrong_answers
 
 

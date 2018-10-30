@@ -2,6 +2,7 @@ from time import sleep
 import re
 from selenium.webdriver.common.by import By
 from testcase.common.basePage.basePage import BasePage
+from utils.log import logger
 
 
 class WordListsResultPage(BasePage):
@@ -70,6 +71,7 @@ class ItemLists(BasePage):
     learn_center_class = (By.CLASS_NAME, "android.widget.TextView")
 
     def get_all_list_ele(self):
+        logger.info("获取学习中心所有题型lists")
         eles = self.find_elements(*self.lists_ids)
         return eles
 
@@ -80,33 +82,38 @@ class ItemLists(BasePage):
         return int(result.group())
 
     def click_one_list(self, driver, ele):
-        print("click_one_list")
+        logger.info("点击学习中心的{}".format(self.getText(ele)))
         try:
             ele.click()
         except:
             ele.click()
         sleep(3)
         all_info = self.page_source()
-        print(all_info)
-        print('生词表' in all_info and "下一步" not in all_info)
+        logger.info("页面所有元素：{}".format(all_info))
+        logger.info('生词表' in all_info and "下一步" not in all_info)
         if self.finish_button_ele_id in all_info:
+            logger.info("完成按钮存在，return 2")
             return 2
         elif '学习中心' in all_info:
+            logger.info("学习中心按钮存在，return 3")
             return 3
         elif '生词表' in all_info and "下一步" not in all_info:
-            print("Return 4")
+            logger.info("生词表和下一步同时存在存在，return 4")
             return 4
         elif '第一步:' in all_info or '生词表' in all_info:
+            logger.info("第一步和生词表存在一个，return 5")
             return 5
         elif '第二步' in all_info:
+            logger.info("第二步存在， return 6")
             return 6
         elif '第三步' in all_info:
+            logger.info("第三步存在， return 7")
             return 7
         elif '提交' in all_info:
+            logger.info("提交按钮存在，retun 8")
             return 8
-        # if "下一步" in all_info:
-        #     return 9
         else:
+            logger.info("Return 0")
             return 0
 
 

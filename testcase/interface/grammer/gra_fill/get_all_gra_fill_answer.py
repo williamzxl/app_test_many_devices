@@ -1,28 +1,32 @@
 import requests
 import json
-# from utils.config import get_headers
+from utils.log import logger
+from utils.config import get_http
 
 
 class GetAllGraFillAnswers(object):
     def __init__(self):
         # self.headers = headers
         # self.url = self.headers.get('Host')
+        self.pr = get_http()
         self.pas = None
 
     def get_all_gra_fill_answer(self, headers, groupID, taskID):
         host = headers.get('Host')
-        url = "http://{}/sysGrammar/{}/graFill".format(host, groupID)
+        url = "{}://{}/sysGrammar/{}/graFill".format(self.pr, host, groupID)
         querystring = {"taskID": "{}".format(taskID)}
-
+        logger.info("语法填空 tID {} gID {} url:{}".format(taskID, groupID, url))
         response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").get('questGuide')
+        logger.info("语法填空 tID {} gID {} result:{}".format(taskID, groupID, result))
         word_answers = []
         for k, v in result[0].items():
             if type(v) == type([1]):
                 for i in v[1].pop('subQuestGuide'):
                     word_answers.append(i.get('questAnswer'))
+        logger.info("语法填空 tID {} gID {} answers:{}".format(taskID, groupID, word_answers))
         return word_answers
 
 
@@ -30,6 +34,7 @@ class GetAllGraFillAnswers(object):
         get_answer = answer[:]
         # right_answer = get_answer.pop(int(num)-1)
         right_answer = get_answer
+        logger.info("语法填空 right answer:{}".format(right_answer))
         return right_answer
 
     def gra_fill_wrong_answer(self, answer):
@@ -38,6 +43,7 @@ class GetAllGraFillAnswers(object):
         wrong_answer = []
         for w in get_answer:
             wrong_answer.append(w[::-1])
+        logger.info("语法填空 right answer:{}".format(wrong_answer))
         return wrong_answer
 
     #

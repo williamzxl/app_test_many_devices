@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="79a1368c-fddc-467d-b2db-66fa46c39efc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Langbo_APP_UI_Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/login/Postman_check_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/login/postman_getUserInfo_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/login/postman_home_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/login/postman_login_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/login/postman_userStudyCenter_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/grammer/postman_getMeasureGrammar_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/grammer/postman_getMeasureInfo_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/grammer/postman_measureData_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/listen/postman_getMeasureInfo_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/listen/postman_getMeasureListening_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/words/postman_getMeasureInfo_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/words/postman_getMeasureWords_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/measure/words/postman_measureData_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/all_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/grammer/all_gra_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/grammer/gra_choice/get_all_gra_choice_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/grammer/gra_error_find/get_all_error_find_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/grammer/gra_error_find/postman_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/grammer/gra_error_find/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/grammer/gra_fill/get_all_gra_choice_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/grammer/gra_fill/get_all_gra_fill_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/home_page/get_home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/home_page/postman_get_home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/all_reading_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/cloze_test/get_all_cloze_test_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/cloze_test/postman_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/cloze_test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/section_train/get_all_section_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/section_train/postman_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_analysis/get_all_sen_analysis_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_analysis/get_all_sen_analysis_answer_000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_analysis/get_all_sen_analysis_answer_001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_analysis/postman_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_analysis/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_cloze75/get_all_sc_75_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_cloze75/postman_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/reading/sen_cloze75/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/study_center/Postman_study_center_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/study_center/get_study_center_serverID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/all_listening_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/long_conv/get_long_conv_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/long_conv/postman_long_conv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/sen_fill/Postman_sen_fill_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/sen_fill/get_sen_fill_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/short_conv/get_short_conv_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/word_dict/answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/word_dict/get_listening_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/word_dict/get_one_list_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/word_dict/get_word_dict_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/sysListening/word_trans/get_word_trans_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/user_center/ce_ping/Postman_measureWord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/user_center/ce_ping/Postman_start_to_cp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/words_lists/all_cihui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/words_lists/ci_hui/get_all_words_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/words_lists/ci_hui/put_all_words_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/words_lists/postman_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/words_lists/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/all_wrt_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/fangxie_zaoju/get_fangxie_zaoju_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/fangxie_zaoju/postman_fangxie_zaoju.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/qianci_zaoju/get_all_qianci_zaoju_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/qianci_zaoju/postman_answer_lists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/word_spell/get_word_spell_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/word_spell/get_word_spell_all_answer_000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/word_spell/postman_word_spell.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/api/old/writing/zhenti_xiezuo/get_zhenti_xiezuo_all_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/home_page/get_home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/home_page/postman_get_home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/login/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/login/postman_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/user_center/Postman_check_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/user_center/Postman_get_detail_services.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/user_center/Postman_get_user_center.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/user_center/Postman_get_user_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/user_center/ce_ping/Postman_measureWord.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/interface/user_center/ce_ping/Postman_start_to_cp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/login_all_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/login_branch/getUserInfo_step2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/login_branch/get_userStudyCenter_step3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/login_branch/login_post_step1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/postman_login/Postman_check_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/postman_login/getUserInfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/postman_login/postman_getUserInfo_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/postman_login/postman_home_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/postman_login/postman_login_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/page/api/login/postman_login/postman_userStudyCenter_get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/devices_cfg.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/devices_cfg.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baidu.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/正确答案不存在_20180920/句子分析不存在正确答案_114443.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/正确答案不存在_20180920/句子分析不存在正确答案_131502.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/正确答案不存在_20180920/句子分析不存在正确答案_132158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/题目判定页_20180920/screen_shot_135053.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/题目判定页_20180920/screen_shot_175700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/题目判定页_20180921/screen_shot_024603.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/题目判定页_20180926/screen_shot_105322.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/case/test_account_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/case/new_test_account_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/basePage/basePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/basePage/basePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/basePage/web_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/basePage/web_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/base_all_common_ele_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/base_all_common_ele_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/base_all_result_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/base_all_result_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/common/base_word_lists_result.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/common/base_word_lists_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/grammer/gra_choice/get_all_gra_choice_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/grammer/gra_choice/get_all_gra_choice_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer_000.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/api/old/reading/cloze_test/get_all_cloze_test_answer_000.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/quick.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/quick.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/word_spell.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/word_spell.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/learn_center.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/learn_center.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/temp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/temp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/temp_foot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/temp_foot.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/temp_head.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/temp_head.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/page/tests/test_ini.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/page/tests/test_ini.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/log.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$word_listening_listsPage1.coverage" NAME="word_listening_listsPage1 Coverage Results" MODIFIED="1531716376816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_all_gra_choice_answer.coverage" NAME="get_all_gra_choice_answer Coverage Results" MODIFIED="1532324607597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/grammer/gra_choice" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_all_sen_analysis_answer.coverage" NAME="get_all_sen_analysis_answer Coverage Results" MODIFIED="1532500749376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/reading/sen_analysis" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test123.coverage" NAME="test123 Coverage Results" MODIFIED="1533693414980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_all_error_find_answer.coverage" NAME="get_all_error_find_answer Coverage Results" MODIFIED="1532399970194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/grammer/gra_error_find" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$word_trans_all_answer.coverage" NAME="word_trans_all_answer Coverage Results" MODIFIED="1531967039149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_answer_lists__1_.coverage" NAME="postman_answer_lists (1) Coverage Results" MODIFIED="1532328579331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/grammer/gra_fill" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$answer.coverage" NAME="answer Coverage Results" MODIFIED="1531379455694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_getMeasureGrammar_get.coverage" NAME="postman_getMeasureGrammar_get Coverage Results" MODIFIED="1537962733543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/api/measure/grammer" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1540369213270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$put_all_words_lists.coverage" NAME="put_all_words_lists Coverage Results" MODIFIED="1537875496456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/words_lists/ci_hui" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_sen_fill_answer_lists.coverage" NAME="get_sen_fill_answer_lists Coverage Results" MODIFIED="1532069074545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$sen_fill_all_answer.coverage" NAME="sen_fill_all_answer Coverage Results" MODIFIED="1532050122771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_trans2.coverage" NAME="test_trans2 Coverage Results" MODIFIED="1532674659568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$prod_intr_page.coverage" NAME="prod_intr_page Coverage Results" MODIFIED="1533777772076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/home_page" />
+    <SUITE FILE_PATH="coverage/Langbo_WebUI_Test$logger.coverage" NAME="logger Coverage Results" MODIFIED="1528716005949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$file_reader.coverage" NAME="file_reader Coverage Results" MODIFIED="1531305797132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$word_test.coverage" NAME="word_test Coverage Results" MODIFIED="1533649987659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/study_test" />
+    <SUITE FILE_PATH="coverage/Langbo_WebUI_Test$config.coverage" NAME="config Coverage Results" MODIFIED="1528190067388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_long_conv_all_answer.coverage" NAME="get_long_conv_all_answer Coverage Results" MODIFIED="1532313047030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/long_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_measureData_post.coverage" NAME="postman_measureData_post Coverage Results" MODIFIED="1537961729651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/api/measure" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_getMeasureInfo_get.coverage" NAME="postman_getMeasureInfo_get Coverage Results" MODIFIED="1537960503007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/api/measure" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$sys_listening.coverage" NAME="sys_listening Coverage Results" MODIFIED="1531380007936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$learn_center.coverage" NAME="learn_center Coverage Results" MODIFIED="1540443911410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/tests" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_home_get.coverage" NAME="postman_home_get Coverage Results" MODIFIED="1537959860364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/api/login" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$allBasePageClass.coverage" NAME="allBasePageClass Coverage Results" MODIFIED="1537366541372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/common" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_get_home.coverage" NAME="postman_get_home Coverage Results" MODIFIED="1537940674193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/home_page" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$danci_tingxie.coverage" NAME="danci_tingxie Coverage Results" MODIFIED="1531707266660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test6_59_49.coverage" NAME="test6_59-49 Coverage Results" MODIFIED="1533002316947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_trans.coverage" NAME="test_trans Coverage Results" MODIFIED="1532585387332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_sen_fill.coverage" NAME="test_sen_fill Coverage Results" MODIFIED="1532589961873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/sen_fill" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$Postman_measureWord.coverage" NAME="Postman_measureWord Coverage Results" MODIFIED="1537942183827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/user_center/ce_ping" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$py_test_in_test_account_login_py.coverage" NAME="py.test in test_account_login.py Coverage Results" MODIFIED="1540206569111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_trans3.coverage" NAME="test_trans3 Coverage Results" MODIFIED="1532684403777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$Unittests_for_test_account_login_TestLogin.coverage" NAME="Unittests for test_account_login.TestLogin Coverage Results" MODIFIED="1531297796760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_getMeasureInfo_get__1_.coverage" NAME="postman_getMeasureInfo_get (1) Coverage Results" MODIFIED="1537963217990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/api/measure/words" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$login_method__1_.coverage" NAME="login_method (1) Coverage Results" MODIFIED="1531293974852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/login_page" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1532912398223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$config.coverage" NAME="config Coverage Results" MODIFIED="1540802549501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1532502095569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/reading/sen_analysis" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_reg_login.coverage" NAME="test_reg_login Coverage Results" MODIFIED="1530176982386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_sen_ana.coverage" NAME="test_sen_ana Coverage Results" MODIFIED="1532584563534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/reading/sen_analysis" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$quick.coverage" NAME="quick Coverage Results" MODIFIED="1540526145624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$Unittests_in_test_account_login_py.coverage" NAME="Unittests in test_account_login.py Coverage Results" MODIFIED="1531299536600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$Postman_get_user_center.coverage" NAME="Postman_get_user_center Coverage Results" MODIFIED="1537941419627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/user_center" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$run_all_test.coverage" NAME="run_all_test Coverage Results" MODIFIED="1531303752694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_long_conv.coverage" NAME="postman_long_conv Coverage Results" MODIFIED="1532309262173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/long_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_answer_lists.coverage" NAME="postman_answer_lists Coverage Results" MODIFIED="1533603266461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/grammer/gra_choice" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$basePage.coverage" NAME="basePage Coverage Results" MODIFIED="1531226694026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/common" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_short_conv_all_answer.coverage" NAME="get_short_conv_all_answer Coverage Results" MODIFIED="1532070039712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/short_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_long_conv.coverage" NAME="test_long_conv Coverage Results" MODIFIED="1532591199076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/long_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_ini.coverage" NAME="test_ini Coverage Results" MODIFIED="1537940374053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/tests" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_short_conv.coverage" NAME="postman_short_conv Coverage Results" MODIFIED="1532069156178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/short_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$all_task_funcs.coverage" NAME="all_task_funcs Coverage Results" MODIFIED="1537852098947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/tests/all_task" />
+    <SUITE FILE_PATH="coverage/Langbo_WebUI_Test$No_test_baidu.coverage" NAME="No_test_baidu Coverage Results" MODIFIED="1528960084617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$login_method.coverage" NAME="login_method Coverage Results" MODIFIED="1531275826161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_gra_choice.coverage" NAME="test_gra_choice Coverage Results" MODIFIED="1532658712778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_choice" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$word_dict_all_answer.coverage" NAME="word_dict_all_answer Coverage Results" MODIFIED="1531967035793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/word_dict" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$web_view.coverage" NAME="web_view Coverage Results" MODIFIED="1531226565971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/common" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_gra_fill.coverage" NAME="test_gra_fill Coverage Results" MODIFIED="1532592054138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_fill" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1531906465277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_word_dict_answer_lists.coverage" NAME="get_word_dict_answer_lists Coverage Results" MODIFIED="1531965270508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/word_dict" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_word_dict_all_answer.coverage" NAME="get_word_dict_all_answer Coverage Results" MODIFIED="1540806991492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening/word_dict" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$log.coverage" NAME="log Coverage Results" MODIFIED="1538961957201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_all_gra_fill_answer.coverage" NAME="get_all_gra_fill_answer Coverage Results" MODIFIED="1532333638638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/grammer/gra_fill" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$loginPage.coverage" NAME="loginPage Coverage Results" MODIFIED="1531227191948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test5_mting.coverage" NAME="test5_mting Coverage Results" MODIFIED="1532920720815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_all_section_train.coverage" NAME="get_all_section_train Coverage Results" MODIFIED="1532565134084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/reading/section_train" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_userStudyCenter_get.coverage" NAME="postman_userStudyCenter_get Coverage Results" MODIFIED="1537960524253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/api/login" />
+    <SUITE FILE_PATH="coverage/Langbo_WebUI_Test$file_reader.coverage" NAME="file_reader Coverage Results" MODIFIED="1528190259224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test_short_conv.coverage" NAME="test_short_conv Coverage Results" MODIFIED="1532590518813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/short_conv" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$logger.coverage" NAME="logger Coverage Results" MODIFIED="1531223337358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/Langbo_WebUI_Test$langbo_wordbook.coverage" NAME="langbo_wordbook Coverage Results" MODIFIED="1528963976436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/case" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$get_one_list_content.coverage" NAME="get_one_list_content Coverage Results" MODIFIED="1531444975052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/sysListening" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_getUserInfo_get.coverage" NAME="postman_getUserInfo_get Coverage Results" MODIFIED="1538023529968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/api/login" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$test.coverage" NAME="test Coverage Results" MODIFIED="1540286472766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/log" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$view_operation.coverage" NAME="view_operation Coverage Results" MODIFIED="1530619259723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/common" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$danci_tingxie__1_.coverage" NAME="danci_tingxie (1) Coverage Results" MODIFIED="1531904446631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/listening/word_dic" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$home_page.coverage" NAME="home_page Coverage Results" MODIFIED="1533731200858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/home_page" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$gra_fill_FillAnswer2.coverage" NAME="gra_fill_FillAnswer2 Coverage Results" MODIFIED="1532339627659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/page/learn_center/grammer/gra_fill" />
+    <SUITE FILE_PATH="coverage/Langbo_APP_UI_Test$postman_login.coverage" NAME="postman_login Coverage Results" MODIFIED="1537940133815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/interface/login" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="learn_center.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/page/tests/learn_center.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_short_conv_all_answer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get_word_dict_all_answer.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1008</find>
+      <find>确定</find>
+      <find>1000</find>
+      <find>android.widget.TextView</find>
+      <find>单词</find>
+      <find>学习中心</find>
+      <find>short</find>
+      <find>2</find>
+      <find>文字</find>
+      <find>A.</find>
+      <find>android.widget.ScrollView</find>
+      <find>测评</find>
+      <find>com.langlib.cee:id/fragment_word_trans_detail_answer_a</find>
+      <find>开启测评之旅</find>
+      <find>七选五</find>
+      <find>听力测试共有</find>
+      <find>取消</find>
+      <find>写作测评</find>
+      <find>生词表</find>
+      <find>CI HUI</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/read/wenzhang_xunlian.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/login/postman_login.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/test_ini.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/login/login.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/home_page/postman_get_home.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/user_center/get_user_center.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/user_center/Postman_get_detail_services.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/user_center/Postman_get_user_info.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/user_center/Postman_check_version.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/user_center/ce_ping/Postman_start_to_cp1.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/user_center/ce_ping/Postman_start_to_cp2.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/user_center/ce_ping/Postman_measureWord.py" />
+        <option value="$PROJECT_DIR$/testcase/api/login/postman_home_get.py" />
+        <option value="$PROJECT_DIR$/testcase/api/login/postman_userStudyCenter_get.py" />
+        <option value="$PROJECT_DIR$/testcase/api/measure/postman_getMeasureInfo_get.py" />
+        <option value="$PROJECT_DIR$/testcase/api/measure/postman_getMeasureWords_get.py" />
+        <option value="$PROJECT_DIR$/testcase/api/measure/postman_measureData_post.py" />
+        <option value="$PROJECT_DIR$/testcase/api/measure/grammer/postman_getMeasureGrammar_get.py" />
+        <option value="$PROJECT_DIR$/testcase/api/measure/grammer/postman_measureData_post.py" />
+        <option value="$PROJECT_DIR$/testcase/api/measure/listening.py" />
+        <option value="$PROJECT_DIR$/testcase/api/measure/listen/postman_getMeasureListening_get.py" />
+        <option value="$PROJECT_DIR$/utils/log.py" />
+        <option value="$PROJECT_DIR$/log/test.py" />
+        <option value="$PROJECT_DIR$/utils/python.py" />
+        <option value="$PROJECT_DIR$/utils/test.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/learn_center.py" />
+        <option value="$PROJECT_DIR$/config/devices_cfg.yml" />
+        <option value="$PROJECT_DIR$/log/test.log" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py" />
+        <option value="$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/word_spell.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/quick.py" />
+        <option value="$PROJECT_DIR$/testcase/common/basePage/basePage.py" />
+        <option value="$PROJECT_DIR$/testcase/common/basePage/web_view.py" />
+        <option value="$PROJECT_DIR$/testcase/common/base_all_common_ele_page.py" />
+        <option value="$PROJECT_DIR$/testcase/common/base_all_result_page.py" />
+        <option value="$PROJECT_DIR$/testcase/common/base_word_lists_result.py" />
+        <option value="$PROJECT_DIR$/config/config.yml" />
+        <option value="$PROJECT_DIR$/utils/config.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/home_page/get_home.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/grammer/gra_choice/get_all_gra_choice_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py" />
+        <option value="$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="study_center" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="sysListening" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="sysListening" type="462c0819:PsiDirectoryNode" />
+              <item name="sen_fill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="sysListening" type="462c0819:PsiDirectoryNode" />
+              <item name="short_conv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="sysListening" type="462c0819:PsiDirectoryNode" />
+              <item name="word_dict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Langbo_APP_UI_Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Langbo_APP_UI_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../API_test/CEE_api_test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\page\api" />
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\api\measure\listen" />
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\api\measure\grammer" />
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase" />
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\interface\user_center\ce_ping" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\api\measure\words" />
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\api\login" />
+      <recent name="C:\Users\liuda\Desktop\CEE\ManyDevices\Langbo_APP_UI_Test\testcase\api\old" />
+      <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\learn_center\listening\short_conv" />
+      <recent name="C:\Users\liuda\Desktop\Langbo_APP_UI_Test\testcase\page\learn_center\listening\sen_fill" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.get_word_dict_all_answer">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Langbo_APP_UI_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="get_word_dict_all_answer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Langbo_APP_UI_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/interface/sysListening/word_dict" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="learn_center" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Langbo_APP_UI_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/page/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/page/tests/learn_center.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="quick" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Langbo_APP_UI_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/quick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Langbo_APP_UI_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.quick" />
+      <item itemvalue="Python.learn_center" />
+      <item itemvalue="Python.test (1)" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.get_word_dict_all_answer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.get_word_dict_all_answer" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.quick" />
+        <item itemvalue="Python.learn_center" />
+        <item itemvalue="Python.test (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79a1368c-fddc-467d-b2db-66fa46c39efc" name="Default" comment="" />
+      <created>1528180423682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528180423682</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_account_login_py - 2018.07.11 at 15h 46m 38s.xml">
+      <configuration name="Unittests in test_account_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_account_login_TestLogin - 2018.07.11 at 15h 54m 48s.xml">
+      <configuration name="Unittests for test_account_login.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_account_login_TestLogin - 2018.07.11 at 15h 55m 17s.xml">
+      <configuration name="Unittests for test_account_login.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_account_login_TestLogin - 2018.07.11 at 15h 56m 34s.xml">
+      <configuration name="Unittests for test_account_login.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_account_login_TestLogin - 2018.07.11 at 15h 58m 17s.xml">
+      <configuration name="Unittests for test_account_login.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_account_login_TestLogin - 2018.07.11 at 16h 00m 21s.xml">
+      <configuration name="Unittests for test_account_login.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_account_login_TestLogin - 2018.07.11 at 16h 29m 29s.xml">
+      <configuration name="Unittests for test_account_login.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_account_login_TestLogin - 2018.07.11 at 16h 31m 27s.xml">
+      <configuration name="Unittests for test_account_login.TestLogin" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_account_login_py - 2018.07.11 at 17h 05m 01s.xml">
+      <configuration name="Unittests in test_account_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_account_login_py - 2018.10.22 at 19h 09m 31s.xml">
+      <configuration name="py.test in test_account_login.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32984293" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34323433" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32984293" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49731183" visible="true" weight="0.29911074" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" sideWeight="0.50268817" side_tool="true" weight="0.21422797" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39441535" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32635254" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49731183" visible="true" weight="0.31663975" />
+      <window_info id="Structure" order="1" sideWeight="0.50268817" side_tool="true" weight="0.21422797" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36300173" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39441535" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32984293" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32984293" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32635254" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32984293" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/measure/words/postman_getMeasureWords_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/measure/grammer/postman_getMeasureGrammar_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/measure/grammer/postman_measureData_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/measure/listen/postman_getMeasureListening_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/measure/words/postman_getMeasureInfo_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/measure/words/postman_measureData_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/api/login/postman_getUserInfo_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/case/new_test_account_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.py" />
+    <entry file="file://$PROJECT_DIR$/testcase/page/study_center/study_center_main_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="115" column="8" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/api/login/login_all_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/api/login/login_branch/login_post_step1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="14" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/home_page/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/fangxiezaoju.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/devices_cfg.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/write/word_spell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/writing/word_spell/get_word_spell_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funs/listen/sen_fill.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/all_task/all_task_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="161" column="35" lean-forward="true" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/basePage/basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="128" column="15" lean-forward="true" selection-start-line="128" selection-start-column="15" selection-end-line="128" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/basePage/web_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="136" column="17" lean-forward="true" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/learn_center/listening/word_trans/quick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/base_all_common_ele_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/base_all_result_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="89" column="16" lean-forward="true" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/base_listening_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/common/base_word_lists_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="120" column="8" lean-forward="true" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/grammer/gra_error_find/get_all_error_find_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/home_page/get_home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_fill_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/grammer/gra_fill/get_all_gra_choice_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/grammer/gra_choice/get_all_gra_choice_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/section_train/get_all_section_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="89" column="127" selection-start-line="89" selection-start-column="127" selection-end-line="89" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/sen_analysis/get_all_sen_analysis_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="78" column="43" lean-forward="true" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/sen_cloze75/get_all_sc_75_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/long_conv/get_long_conv_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/sen_fill/get_sen_fill_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/study_center/get_study_center_serverID.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/reading/cloze_test/get_all_cloze_test_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/page/tests/learn_center.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/short_conv/get_short_conv_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_one_list_content.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_listening_lists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/interface/sysListening/word_dict/get_word_dict_all_answer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,32 +1,37 @@
 import requests
 import json
-# from utils.config import get_headers
+from utils.config import get_http
+from utils.log import logger
 
 
 class GetAllSC75Answers(object):
     def __init__(self):
-        # self.headers = headers
+        self.pr = get_http()
         # self.url = self.headers.get('Host')
         self.pas = None
 
     def get_all_sc_75_answer(self, headers, groupID, taskID):
         host = headers.get("Host")
-        url = "http://{}/sysReading/{}/senCloze".format(host, groupID)
+        url = "{}://{}/sysReading/{}/senCloze".format(self.pr, host, groupID)
         querystring = {"taskID": "{}".format(taskID)}
+        logger.info("七选五 tID {}, gID {}, url is：{}".format(taskID, groupID, url))
         response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('questGuide')
+        logger.info("七选五 tID {}, gID {}, result is：{}".format(taskID, groupID, result))
         sc_75_all_answers = []
         for i in result:
             for step in i.get('steps'):
                 if step.get('subQuestGuide'):
                     for answer in step.get('subQuestGuide'):
                         sc_75_all_answers.append(answer.get('questAnswer'))
+        logger.info("七选五 tID {}, gID {}, all answers is：{}".format(taskID, groupID, sc_75_all_answers))
         return sc_75_all_answers
 
     def sc_75_right_answer(self, answers):
         right_answer = answers[:]
+        logger.info("七选五 right answer is :{}".format(answers))
         return right_answer
 
     def sc_75_wrong_answer(self, answers):
@@ -54,6 +59,7 @@ class GetAllSC75Answers(object):
         if curr_index:
             for j,k in zip(curr_index, range(1, len(curr_index) + 1)):
                 wrong_answer[j] = not_in_item[k]
+        logger.info("七选五 wrong answer is:{}".format(wrong_answer))
         return wrong_answer
 
 

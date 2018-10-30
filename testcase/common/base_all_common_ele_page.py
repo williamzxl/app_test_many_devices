@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from time import sleep
 from testcase.common.basePage.basePage import BasePage
+from utils.log import logger
 
 
 class AllCommonEle(BasePage):
@@ -20,6 +21,7 @@ class AllCommonEle(BasePage):
     def get_page_title(self):
         try:
             title = self.getText(*self.page_title_id)
+            logger.info("Get page title:{}".format(title))
             return title
         except:
             pass
@@ -27,23 +29,29 @@ class AllCommonEle(BasePage):
     def clickEle(self, x, y):
         # def tapEle(self, x1, y1, x2, y2, time=0.01):
         #     self.driver.tap([(x1, y1), (x2, y2)], time)
+        logger.info("Click Ele: {} {} {} {}".format(x, y, x+50, y+50))
         self.tapEle(x, y, x+50, y+50, time=200)
         sleep(5)
 
     def click_back_btn(self):
+        logger.info("Click back botton")
         self.find_element(*self.back_btn_id).click()
 
     def click_video_back_btn(self):
+        logger.info("click_video_back_btn")
         self.find_element(*self.video_back_btn_id).click()
 
     def get_dialog_tips_text(self):
+        logger.info("get_dialog_tips_text")
         return self.getText(self.find_element(*self.dialog_tips_text_id))
 
     def click_sure_button(self):
+        logger.info("Click 确定 按钮")
         if self.dialog_tips_text_id in self.page_source():
             self.find_element(*self.dialog_sure_button).click()
 
     def click_cancel_button(self):
+        logger.info("Click 取消 按钮")
         if self.dialog_tips_text_id in self.page_source():
             # return self.find_element(*self.dialog_cancel_button).click()
             self.find_element(*self.dialog_cancel_button).click()

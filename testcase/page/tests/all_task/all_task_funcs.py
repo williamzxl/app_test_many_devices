@@ -28,6 +28,7 @@ from testcase.page.study_center.study_center_main_page import StudyCenter
 from testcase.interface.all_interface import AllInterface
 from testcase.interface.study_center.get_study_center_serverID import GetTaskGroupNum
 
+from utils.log import logger
 
 class HomeWork(AllInterface):
     pass
@@ -37,9 +38,9 @@ class HomeWork1(StudyCenter, AllPage, GetTaskGroupNum):
     pass
 
 
-def main1(appium_url, d, h):
+def main1(appium_url, d, h, a):
     try:
-        print("Begin")
+        logger.info("Begin")
         home_work = HomeWork1()
         print("Begin01", appium_url, d)
         home_work.open(appium_url, d)
@@ -53,7 +54,7 @@ def main1(appium_url, d, h):
         except:
             pass
         ex_x, ex_y = home_work.get_my_ex_loc()
-        print("ex_x, ex_y", ex_x, ex_y)
+        print("ex_x, ex_y".upper(), ex_x, ex_y)
         sleep(10)
         while True:
             try:
@@ -63,7 +64,7 @@ def main1(appium_url, d, h):
             except:
                 pass
             sleep(5)
-            print("ex_x, ex_y", ex_x, ex_y)
+            print("ex_x, ex_y".capitalize(), ex_x, ex_y)
             home_work.swipeUp(ex_x, ex_y, 1, 500)
             sleep(2)
             task_CN_lists = home_work.return_all_test_ele()
@@ -127,12 +128,16 @@ def main1(appium_url, d, h):
                                 home_work.click_back_btn()
                             except:
                                 pass
+                        logger.info("Result === >{}".format(result))
                         print("Result === >", result)
                         if "课" in result:
                             times.append("0")
                         else:
+                            click_result = None
                             try:
                                 click_result = home_work.click_one_list(home_work, g)
+                                logger.info("Click_result: {}".format(click_result))
+                                print("Click_result".upper(), click_result)
                             except:
                                 pass
                             try:

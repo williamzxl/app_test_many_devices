@@ -65,6 +65,12 @@ def get_appPackage(caps='desired_caps_info'):
     return app_package.get("appPackage")
 
 
+def get_http(name="http/https"):
+    cfg_info = Config()
+    content = cfg_info.get(name)
+    for info in content:
+        return info.get('protocal')
+
 # def get_headers(heads='common'):
 #     cfg_info = Config()
 #     headers = {}
@@ -93,9 +99,9 @@ if __name__ == "__main__":
     # host = headers.get('Host')
     # print(headers)
     # print(host)
-    appPackage = get_appPackage()
-    print(appPackage)
+    # appPackage = get_appPackage()
+    # print(appPackage)
     # devices_name = get_device_name(caps='desired_caps_info1')
     # print(devices_name)
-
+    pass
 

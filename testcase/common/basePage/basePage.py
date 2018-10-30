@@ -2,6 +2,7 @@ from testcase.common.basePage.web_view import WebView
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
+from utils.log import logger
 
 
 class BasePage(WebView):
@@ -16,26 +17,30 @@ class BasePage(WebView):
 
     def open(self, appium_url, desired_caps):
         try:
+            logger.info("Open appium_url: {}".format(appium_url))
+            logger.info("desired_caps:{}".format(desired_caps))
             self.get(appium_url, desired_caps)
         except:
+            logger.warning("Cant open appium url:{}".format(appium_url))
             raise ValueError("Connect appium failed!")
 
     def find_element(self, *loc):
         try:
             WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(loc))
-            # print("Find elements Success")
+            logger.info("Success return self.driver.find_element(*loc):{}".format(loc))
             return self.driver.find_element(*loc)
         except TimeoutError:
-            print("In {} cant find {}".format(self, loc))
+            logger.error("In {} cant find {}".format(self, loc))
             return False
 
     def find_elements(self, *loc):
         try:
             WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(loc))
-            # print("Find elements Success")
+            logger.info("Success return self.driver.find_element(*loc):{}".format(loc))
             return self.driver.find_elements(*loc)
         except TimeoutError:
-            print("In {} cant find {}".format(self, loc))
+            # print("In {} cant find {}".format(self, loc))
+            logger.error("In {} cant find {}".format(self, loc))
             return False
 
     # def script(self, src):
@@ -53,7 +58,7 @@ class BasePage(WebView):
             # self.find_element(*loc).send_keys(value)
                 loc.send_keys(value)
         except AttributeError:
-            print("{} page cant find {} element".format(self, loc))
+            logger.error("{} page cant find {} element".format(self, loc))
 
     def get_url(self):
         return self.driver.current_url
@@ -95,7 +100,7 @@ class BasePage(WebView):
         try:
             return element.text
         except SyntaxError:
-            print("No such element TEXT")
+            logger.error("No such element TEXT")
 
     def getTitle(self):
         return self.driver.title

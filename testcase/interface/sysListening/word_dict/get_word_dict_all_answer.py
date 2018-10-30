@@ -1,24 +1,25 @@
 import requests
 import json
-# from utils.config import get_headers
+from utils.config import get_http
+from utils.log import logger
 
 
 class GetAllWordDictAnswers(object):
     def __init__(self):
-        # self.headers = headers
-        # self.url = self.headers.get('Host')
+        self.pr = get_http()
         self.pas = None
 
     def get_all_dict_answer(self, headers, groupID, taskID):
-        # http: // appncee_dev.langb.cn / sysListening / 1104 / wordDic
         host = headers.get('Host')
-        url = "http://{}/sysListening/{}/wordDic".format(host, str(groupID))
+        url = "{}://{}/sysListening/{}/wordDic".format(self.pr, host, str(groupID))
         querystring = {"taskID": "{}".format(str(taskID))}
+        logger.info("词汇列表 获取答案的URL:{}".format(url))
         response = requests.request("GET", url, headers=headers, params=querystring)
         answer = response.text
-        # print(answer)
+        logger.info("词汇列表的返回值：{}".format(answer))
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('questGuide')
+        logger.info("词汇")
         word_answers = []
         for a in result:
             word_answers.append(a.pop('wordEN'))

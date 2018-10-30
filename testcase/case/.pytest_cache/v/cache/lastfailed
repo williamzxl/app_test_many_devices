@@ -1,0 +1,6 @@
+{
+  "test_account_login.py::TestLogin::test_login_error_pwd": true,
+  "test_account_login.py::TestLogin::test_login_error_uname": true,
+  "test_account_login.py::TestLogin::test_login_error_uname_pwd": true,
+  "test_account_login.py::TestLogin::test_login_success": true
+}

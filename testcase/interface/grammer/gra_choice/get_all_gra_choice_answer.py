@@ -1,34 +1,36 @@
 import requests
 import json
-# from utils.config import get_headers
+from utils.log import logger
+from utils.config import get_http
 
 
 class GetAllGraChoiceAnswers(object):
     def __init__(self, headers):
+        self.pr = get_http()
         self.headers = headers
         self.url = self.headers.get('Host')
 
 
     def get_all_gra_choice_answer(self, groupID, taskID):
-        url = "http://{}/sysGrammar/{}/mulChoice".format(self.url, groupID)
-        # http://192.168.1.154:55262/sysGrammar/1854/mulChoice
+        url = "{}://{}/sysGrammar/{}/mulChoice".format(self.pr, self.url, groupID)
         querystring = {"groupID": "{}".format(groupID), "taskID": "{}".format(taskID)}
-        print("URL", url)
+        logger.info("语法单选 URL is：{}".format(url))
         response = requests.request("GET", url, headers=self.headers, params=querystring)
         answer = response.text
         json_data = json.loads(answer)
         result = json_data.pop("data").pop('questGuide')
-        print("result", result)
+        logger.info("语法单选的全部 result".format(result))
         word_answers = []
         for a in result:
             word_answers.append(a.pop('questAnswer'))
-        print("Database_answers:", word_answers)
+        logger.info("语法单选 tID {} gID {} answers:{}".format(taskID, groupID, word_answers))
         return word_answers
 
 
     def gra_choice_right_answer(self, answer, num):
         get_answer = answer[:]
         right_answer = get_answer.pop(int(num)-1)
+        logger.info("语法单选的正确答案：{}".format(right_answer))
         return right_answer
 
 
@@ -40,6 +42,7 @@ class GetAllGraChoiceAnswers(object):
             wrong_answer.append(chr(ord(test) + 1))
         else:
             wrong_answer.append(chr(ord(test) -1))
+        logger.info("语法单选的错误答案：".format("".join(wrong_answer)))
         return "".join(wrong_answer)
 
 

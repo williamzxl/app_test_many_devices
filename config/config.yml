@@ -1,3 +1,6 @@
+- http/https:
+    protocal: https
+
 - desired_caps_info:
     appPackage: com.langlib.ncee
     appActivity: com.langlib.ncee.ui.main.SplashActivity

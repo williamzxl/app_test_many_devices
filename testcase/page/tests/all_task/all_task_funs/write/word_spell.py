@@ -2,14 +2,14 @@ from time import sleep
 from testcase.page.learn_center.all_class import AllPage
 from testcase.page.study_center.study_center_main_page import StudyCenter
 from testcase.interface.all_interface import AllInterface
-
+from utils.log import logger
 
 class HomeWork(AllInterface, StudyCenter, AllPage):
     pass
 
 
 def word_spell(home_work, headers, k0, k1, click_result):
-    print("单词拼写,单词拼写")
+    logger.info("单词拼写,单词拼写: {} , {} , {} ,{}".format(headers, k0, k1, click_result))
     word_spell = HomeWork()
     word_answers = word_spell.get_all_word_spell_answer(headers, k0, k1)
     # click_result = home_work.click_one_list(home_work, g)
@@ -25,12 +25,14 @@ def word_spell(home_work, headers, k0, k1, click_result):
             home_work.click_learning_center()
     else:
         curr, total = home_work.get_word_spell_list_num()
-        print(curr, total)
+        logger.info("curr: {}, total:{}".format(curr, total))
         for j in range(int(curr), int(total) + 1):
             if j == int(total):
+                logger.info("j == int(total): {}, {}".format(j, int(total)))
                 current_right_answer = word_spell.word_spell_right_answer(word_answers, j)
                 current_wrong_answer = word_spell.word_spell_wrong_answer(word_answers, j)
-                print(current_right_answer, current_wrong_answer)
+                logger.info("current_right_answer: {}".format(current_right_answer))
+                logger.info("current_wrong_answer:{}".format(current_wrong_answer))
                 # home_work.hideKeyboard()
                 # home_work.save_screen_shot("No KEYBoard")
                 home_work.fill_word_spell_answer(current_right_answer)
@@ -40,9 +42,11 @@ def word_spell(home_work, headers, k0, k1, click_result):
             # login_page.click_audio_button()
             else:
                 # home_work.save_screen_shot(page_name="Word", file_name="播放截图")
+                logger.info("j != int(total): {}, {}".format(j, int(total)))
                 current_right_answer = word_spell.word_spell_right_answer(word_answers, j)
                 current_wrong_answer = word_spell.word_spell_wrong_answer(word_answers, j)
-                print(current_right_answer, current_wrong_answer)
+                logger.info("current_right_answer: {}".format(current_right_answer))
+                logger.info("current_wrong_answer:{}".format(current_wrong_answer))
                 # try:
                 #     home_work.hideKeyboard()
                 # except:

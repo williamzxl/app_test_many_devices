@@ -53,3 +53,5 @@ class Logger(object):
 
 
 logger = Logger().get_logger()
+# logger.info("HHH")
+# logger.warning("HHHDJDJD")

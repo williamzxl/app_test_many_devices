@@ -1,14 +1,10 @@
 import threading
 from time import sleep, ctime
-# from appium.webdriver.webdriver import By
 from selenium.webdriver.common.by import By
-# from testcase.common.basePage import BasePage
-from testcase.page.reg_login_page.login_page.loginPage import LoginPage
 import os
 item_class = (By.CLASS_NAME, "android.widget.TextView")
 evaluation_id = (By.ID, 'com.langlib.cee:id/evaluation')
 action_id = (By.ID, 'com.langlib.cee:id/evaluation_begin_tv')
-# com.langlib.cee:id/evaluation_begin_tv
 a = "com.langlib.cee:id/fragment_word_trans_detail_answer_a"
 radio_id = (By.ID, "com.langlib.cee:id/fragment_word_trans_detail_answer_a")
 radio_b_id = (By.ID, "com.langlib.cee:id/fragment_word_trans_detail_answer_b")
@@ -24,13 +20,13 @@ def click_ele(min):
     Flag = True
     while Flag:
         print("Start Time:",ctime())
-        for y in [645, 890, 950,1090]:
+        for y in [1200, 645, 890, 950,1090,]:
             os.system('adb shell input tap 552 {}'.format(y))
         print("End Time:", ctime())
-        c = ctime().split(" ")[4].split(":")
-        if c[1] == str(min):
-            print("Click ELE End")
-            break
+        # c = ctime().split(" ")[4].split(":")
+        # if c[1] == str(min):
+        #     print("Click ELE End")
+        #     break
 
 
 def click_next(min):
@@ -38,13 +34,15 @@ def click_next(min):
     while Flag:
         # print("Start Next Time:", ctime())
         # cmd = 'adb shell input tap 552 1843'
-        cmd = 'adb shell input tap 450 1260'
-        os.system(cmd)
+        for y in [1200, 645, 890, 950,1090,]:
+            os.system('adb shell input tap 552 {}'.format(y))
+            cmd = 'adb shell input tap 746 2471'
+            os.system(cmd)
     # print("End Next Time:", ctime())
-        c = ctime().split(" ")[4].split(":")
-        if c[1] == str(min):
-            print("Click next End")
-            break
+    #     c = ctime().split(" ")[4].split(":")
+    #     if c[1] == str(min):
+    #         print("Click next End")
+    #         break
 
 
 def main(min):
@@ -60,9 +58,9 @@ def main(min):
 
 
 if __name__ == '__main__':
-    login_page = LoginPage()
-    login_page.open(noReset=True)
-    sleep(15)
+    # login_page = LoginPage()
+    # login_page.open(noReset=True)
+    # sleep(15)
     main("50")
 
 

@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 from testcase.common.basePage.basePage import BasePage
 from utils.config import get_appPackage
+from utils.log import logger
 
 
 class All_ResultPage(BasePage):
@@ -32,21 +33,25 @@ class All_ResultPage(BasePage):
     最后一题，底部按钮为生词表
     '''
     def click_words_list_button(self):
+        logger.info("Click 生词表 按钮")
         self.find_element(*self.word_list_button_id).click()
 
     '''
     生词表页，底部按钮为完成
     '''
     def click_word_finish_button(self):
+        logger.info("Click 完成 按钮")
         self.find_element(*self.word_profi_done_id).click()
 
     """
     结果展示页
     """
     def get_time(self):
+        logger.info("Get 结果页 时间")
         return self.getText(self.find_element(*self.time_id))
 
     def get_grade(self):
+        logger.info("Get 结果页 分数")
         return self.getText(self.find_element(*self.grade_id))
 
     def get_item_lists_index(self):
@@ -60,16 +65,18 @@ class All_ResultPage(BasePage):
         self.find_element(*self.words_lists_icon).click()
 
     def click_learn_center(self):
+        logger.info("Click 学习中心")
         self.find_element(*self.learn_center_class).click()
 
     def click_learn_card_btn(self):
         if self.learn_card_ele_id in self.page_source():
+            logger.info("click 学习打卡")
             self.find_element(*self.learn_card_id).click()
         else:
             pass
 
     def click_learn_card_close_btn(self):
-        print('"学习打卡" in self.page_source()', "学习打卡" in self.page_source())
+        logger.info('"学习打卡" in self.page_source()', "学习打卡" in self.page_source())
         if "学习打卡" in self.page_source():
             self.find_element(*self.learn_card_close_id).click()
             return 1
@@ -78,7 +85,7 @@ class All_ResultPage(BasePage):
 
     def click_learn_card_task_btn(self):
         from time import sleep
-        print('"学习打卡" in self.page_source()', "学习打卡" in self.page_source())
+        logger.info('"学习打卡" in self.page_source()', "学习打卡" in self.page_source())
         self.find_element(*self.learn_card_id).click()
         sleep(2)
 
