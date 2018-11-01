@@ -5,16 +5,16 @@
         Platform: Android
         appPackage: com.langlib.ncee
         appActivity: com.langlib.ncee.ui.main.SplashActivity
-        appkey: CEE_AA8F55B916AB
+        appkey: xxxx
         appversion: '10003000'
-        AppSecret: 3DB5159C-EB1E-47FE-8584-47115EF5E443
+        AppSecret: xxxx
         App: cee
-        Host_test: appncee.langb.cn
-        Host_cus: appncee.langlib.com
-        loginUrl_test: https://proxy.langb.cn
-        loginProxy_test: proxy.langb.cn
-        loginUrl_cus: https://proxy.langlib.com
-        loginProxy_cus: proxy.langlib.com
+        Host_test: xxxx
+        Host_cus: xxxx
+        loginUrl_test: https://xxxx
+        loginProxy_test: xxxx
+        loginUrl_cus: https://xxxx
+        loginProxy_cus: xxxx
         Host: None
         loginUrl: None
         loginProxy: None
@@ -24,17 +24,17 @@
     appium_url:
         url: http://127.0.0.1:4723/wd/hub
     account:
-        uname: t-010@t.com
-        pwd: 111111
-        loginUrl_test: https://proxy.langb.cn
-        loginProxy_test: proxy.langb.cn
-        loginUrl_cus: https://proxy.langlib.com
-        loginProxy_cus: proxy.langlib.com
+        uname: txxxx@t.com
+        pwd: xxxx
+        loginUrl_test: https://xxxx
+        loginProxy_test: xxxx
+        loginUrl_cus: https:xxxxxcom
+        loginProxy_cus: xxxx.com
     desired_caps:
         platformName:
         platformVersion: '6.0.1'
-        deviceName: 33ea8e00
-        udid: 33ea8e00
+        deviceName: 33xxxxx0
+        udid: 3xxxx0
         appPackage:
         appActivity:
         unicodeKeyboard: True
