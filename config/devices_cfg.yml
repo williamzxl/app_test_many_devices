@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 - common:
     globals:
         env: test
@@ -51,6 +50,3 @@
         Accept-Encoding: gzip
         User-Agent:
         accesstoken:
-=======
-
->>>>>>> b19b592fa75a5594ff02fb1acc97b8cf8d037095
