@@ -1,10 +1,27 @@
-<<<<<<< HEAD
 - http/https:
     protocal: https
 
 - desired_caps_info:
     appPackage: com.langlib.ncee
     appActivity: com.langlib.ncee.ui.main.SplashActivity
-=======
->>>>>>> b19b592fa75a5594ff02fb1acc97b8cf8d037095
 
+- headers:
+    Host: appncee.langlib.com
+
+- log-Cfg:
+    file_name: test.log
+    backup: 5
+    console_level: WARNING
+    file_level: DEBUG
+    pattern:  '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+- mail_cfg:
+    user: 185xxx4@163.com
+    password: xxxxxxxxx
+    smtp: smtp.163.com
+    revivers:
+        - 185xxxxx@163.com
+        - 105xxxx@qq.com
+    subject: LangBO_CEE_API_Test_Result_0514
+    content:
+        - <h1>LangBO_CEE_API_Test_Result_0514</h1>
